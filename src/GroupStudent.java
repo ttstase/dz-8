@@ -1,12 +1,9 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class GroupStudent {
     private Student leader;
     private List<Student> students = new ArrayList<>();
-    private Map<String, Boolean> tasks = new HashMap<>();
 
     public GroupStudent(Student leader) {
         this.leader = leader;
